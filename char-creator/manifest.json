@@ -1,0 +1,12 @@
+{
+    "display_name": "角色卡制作助手",
+    "loading_order": 100,
+    "requires": [],
+    "js": "index.js",
+    "css": "style.css",
+    "version": "1.0.0",
+    "author": "char-creator",
+    "hooks": {
+        "activate": "init"
+    }
+}

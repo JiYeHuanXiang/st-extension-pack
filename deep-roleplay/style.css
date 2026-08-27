@@ -1,0 +1,19 @@
+/* 深度扮演：Extensions 设置面板容器入口 */
+#deep_roleplay_container {
+    margin-top: 10px;
+}
+
+#deep_roleplay_toggle {
+    transition: color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+#deep_roleplay_toggle:hover {
+    opacity: 0.85;
+}
+
+/* 激活态：金色高亮，提示深度扮演已启用 */
+#deep_roleplay_toggle.active {
+    color: #e8b339;
+    box-shadow: 0 0 8px rgba(232, 179, 57, 0.5);
+    border-color: #e8b339;
+}
