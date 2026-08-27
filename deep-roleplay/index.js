@@ -114,8 +114,12 @@ function clearPrompt(ctx) {
 function updateButtonState() {
     const $btn = $('#deep_roleplay_toggle');
     $btn.toggleClass('active', activeMode !== null);
+    // 按钮文本保持简短，避免在扩展面板窄容器中换行变形；详情放 tooltip
     $btn.text(activeMode
-        ? `深度扮演 · ${activeMode === 'top' ? '上下文顶部' : '系统提示词'}（点击重新配置）`
+        ? `已启用 · ${activeMode === 'top' ? '顶部' : '系统'}`
+        : '深度扮演');
+    $btn.attr('title', activeMode
+        ? `深度扮演已启用（提示词置于${activeMode === 'top' ? '上下文顶部' : '系统提示词'}）— 点击重新配置`
         : '深度扮演');
 }
 

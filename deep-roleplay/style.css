@@ -4,6 +4,8 @@
 }
 
 #deep_roleplay_toggle {
+    white-space: nowrap;
+    flex-shrink: 0;
     transition: color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
