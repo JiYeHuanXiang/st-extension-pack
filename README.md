@@ -10,6 +10,7 @@
 ## 安装方式
 
 ### 补丁版酒馆（一键导入，推荐）
+ - https://github.com/JiYeHuanXiang/sillytavern-patch
 
 补丁版自带 zip 导入功能：
 
@@ -24,6 +25,7 @@ zip 直链：
 - 深度扮演：<https://github.com/JiYeHuanXiang/st-extension-pack/raw/main/deep-roleplay.zip>
 
 ### 原版酒馆（手动解压）
+ - https://github.com/SillyTavern/SillyTavern
 
 原版没有 zip 导入功能，需要手动把拓展文件放进拓展目录：
 
