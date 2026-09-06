@@ -7,6 +7,8 @@
 | `char-creator.zip` | 角色卡制作助手 | 在角色编辑器内通过 AI 分阶段生成角色卡 |
 | `deep-roleplay.zip` | 深度扮演 | 把角色沉浸提示词注入上下文，强化 RP（需 DeepSeek V4 系列模型） |
 
+想发布自己的拓展？参见《[制作拓展插件 zip](making-extension-zip.md)》。
+
 ## 安装方式
 
 ### 补丁版酒馆（一键导入，推荐）
