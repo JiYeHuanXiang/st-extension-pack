@@ -5,7 +5,7 @@
 | 文件 | 拓展 | 说明 |
 | --- | --- | --- |
 | `char-creator.zip` | 角色卡制作助手 | 在角色编辑器内通过 AI 分阶段生成角色卡 |
-| `deep-roleplay.zip` | 深度扮演 | 把角色沉浸提示词注入上下文，强化 RP（需 DeepSeek V4 系列模型） |
+| `deep-roleplay.zip` | 深度扮演 | 把角色沉浸提示词注入上下文，强化 RP（需 deepseek-flash 或 DeepSeek V4 系列模型） |
 
 想发布自己的拓展？参见《[制作拓展插件 zip](making-extension-zip.md)》。
 
@@ -36,4 +36,4 @@ zip 直链：
 3. 放置后目录结构应形如 `data/default-user/extensions/char-creator/manifest.json`、`data/default-user/extensions/deep-roleplay/manifest.json`。
 4. 重启酒馆（或刷新页面），在「扩展程序」面板中确认拓展已加载。
 
-> 注意：「深度扮演」要求当前使用 OpenAI 兼容 API，且模型名同时包含 `deepseek`、`v4` 和 `pro`/`flash`（如 `deepseek-v4-flash`），否则点击按钮时会提示模型不符。
+> 注意：「深度扮演」要求当前使用 OpenAI 兼容 API，且模型名须为 `deepseek-flash` / `deepseek-pro`（官方新命名），或 DeepSeek V4 系列的 pro/flash 型号（如 `deepseek-v4-flash`、`deepseek-v4.1-flash`；第三方供应商可能带 `deepseek-ai/` 等前缀）。旧系列（v1~v3）不受支持，否则点击按钮时会提示模型不符。
